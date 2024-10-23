@@ -16,3 +16,4 @@ suspect_container = database.get_container_client(suspect_container_name)
 app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 
 import get_case_with_suspects
+import get_suspects_by_status
