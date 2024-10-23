@@ -17,3 +17,4 @@ app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 
 import get_case_with_suspects
 import get_suspects_by_status
+import update_case_status
